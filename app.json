@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Voz Clara",
+    "slug": "voz-clara",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#4A90E2"
+      },
+      "package": "com.adrgon.vozclara"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "voz-clara",
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "visionApiKey": "AIzaSyBmNQggJRiTU_fGnUxzIU7KszP9MgU1zlM",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "43be3d09-9ba7-46b3-9ef2-379c6dfbe51f"
+      }
+    }
+  }
+}
